@@ -18,11 +18,11 @@ The repository is organized as follows:
 - **`instances/main.tf`**: Main Terraform configuration file defining AWS providers, data sources, local variables, resources (EC2 instances), and user data for password setup.
 - **`instances/variables.tf`**: Defines input variables used across multiple files in the `instances` directory.
 - **`env-setup/main.tf`**: Configuration to set up VPC, subnets, internet gateway, route table, security group, and outputs necessary IDs for use in instance configuration.
-- **`README.md`**: This file you are currently reading, providing an overview of the repository.
+- **`env-setup/outputs.tf`**: formats outputs for listing the created resources and their access credentials
 
 ## Usage Instructions
-terraform apply
-terraform destroy
+`terraform apply`
+`terraform destroy`
 
 ## Contributing Guidelines
 Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
