@@ -13,7 +13,6 @@ This is a set of Terraform scripts to quickly spin up and down AWS EC2 and EKS i
 The repository is organized as follows:
 - `/instances`: Contains Terraform configuration files to define and manage AWS instances.
 - `/env-setup`: Contains Terraform configuration files for setting up the environment, including VPC, subnets, and security groups.
-- `README.md`: This file providing an overview of the repository.
 
 ## Key Components
 - **`instances/main.tf`**: Main Terraform configuration file defining AWS providers, data sources, local variables, resources (EC2 instances), and user data for password setup.
@@ -22,7 +21,8 @@ The repository is organized as follows:
 - **`README.md`**: This file you are currently reading, providing an overview of the repository.
 
 ## Usage Instructions
-(TBD)
+terraform apply
+terraform destroy
 
 ## Contributing Guidelines
 Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.

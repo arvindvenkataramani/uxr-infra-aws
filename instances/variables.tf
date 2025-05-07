@@ -14,10 +14,12 @@ variable password_length {
   default     = 16
 }
 
+# not used, just here in case something temporary is needed
 variable "placeholder_password" {
     default = "+Eej8iEqThU-+\u0026\u003cr"
 }
 
+# validated list, cannot find on the web anywhere
 variable "override_special_list" {
     description = "Standard list of characters to use in linux passwords"
     default = "@#%^*(){}[]-_=+<>;:,.?~|/"
